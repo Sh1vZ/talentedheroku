@@ -1,10 +1,10 @@
 from flask import Flask, render_template
 app = Flask(__name__)
-@app.route('/login')
+@app.route('/')
 def home():
     return render_template('index.html')
 
-@app.route('/login')
+@app.route('/signup')
 def home():
     return render_template('signup.html')
 
