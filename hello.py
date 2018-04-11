@@ -5,7 +5,7 @@ def home():
     return render_template('index.html')
 
 @app.route('/signup.html')
-def home():
+def signup():
     return render_template('signup.html')
 if __name__ == '__main__':
     app.run(debug=True)
