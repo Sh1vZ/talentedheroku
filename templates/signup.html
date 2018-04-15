@@ -18,6 +18,16 @@
 <input type="password" name="password" placeholder="Password" required="">
 <input type="password" name="password" placeholder="Confirm Password" required="">
 <a href="../upload.html"><input type="submit" value="REGISTER"></a>
+	<script language='javascript' type='text/javascript'>
+function check(input) {
+if (input.value != document.getElementById('passwordID').value) {
+input.setCustomValidity('Password Must be Matching.');
+} else {
+// input is valid -- reset the error message
+input.setCustomValidity('');
+}
+}
+</script>
 </form>
 </div>
 <p>By clicking register, you agree to the terms of service</p>
