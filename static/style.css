@@ -7,10 +7,10 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
 
 a{text-decoration:none;}
-.txt-rt{text-align:right;}
-.txt-lt{text-align:left;}
+.txt-rt{text-align:center;}
+.txt-lt{text-align:center;}
 .txt-center{text-align:center;}
-.float-rt{float:right;}
+.float-rt{float:center;}
 .float-lt{float:left;}
 .clear{clear:both;}
 .pos-relative{position:relative;}
