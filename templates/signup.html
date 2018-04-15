@@ -15,8 +15,8 @@
 <form action="../upload.html">
 <input type="text" name="email" placeholder="E-mail" required="">
 <input type="text" name="name" placeholder="Username" required="">
-<input type="password" name="password" placeholder="Password" required="">
-<input type="password" name="password" placeholder="Confirm Password" required="">
+<input type="password" id="passwordID" name="password" placeholder="Password" required="">
+<input type="password" name="password" placeholder="Confirm Password" oninput="check(this);" required="">
 <a href="../upload.html"><input type="submit" value="REGISTER"></a>
 	<script language='javascript' type='text/javascript'>
 function check(input) {
