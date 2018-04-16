@@ -57,6 +57,9 @@ h1 {
     background-size: cover;
     padding: 2em 2em;
 	text-align: center;
+	 position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
 }
 .signin-form h3 {
     font-size: 2em;
