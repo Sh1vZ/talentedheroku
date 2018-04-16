@@ -47,7 +47,7 @@ h1 {
 
 /*--signin-form--*/
 .w3 {
-    float: left;
+    float: initial;
     width: 48%;
     margin-right: 4%;
 }
