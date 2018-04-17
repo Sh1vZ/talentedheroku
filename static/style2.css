@@ -52,7 +52,7 @@ h1 {
     margin-right: 4%;
 }
 .agile {
-    float: right;
+    margin:0 auto;
     width: 48%;
 }
 .signin-form {
